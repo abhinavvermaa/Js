@@ -1,0 +1,13 @@
+.container{
+    border: 2px solid lightblue ;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 60px 60px 60px;
+    gap: 5px;
+    justify-content: center;
+    height:50vh;
+    width: 28vh;
+}
+#txt{
+    grid-column: 1/ 4;
+}
