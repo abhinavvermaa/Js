@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>ps-function</title>
+</head>
+<body>
+    <script>
+
+        //to check a no. is odd or even
+        function check(num){
+            if(num%2==0){
+                console.log('even');
+            }
+            else{
+                console.log('odd');
+            }
+        }
+        check(9);
+        // to check larger of two
+        function larger(n1 , n2){
+            if(n1>n2){
+                console.log(`${n1} is larger`);
+            }
+            else{
+                console.log(`${n2} is larger`);
+            }
+        }
+        larger(4,0);
+        //to convert celsius to fahranheit
+        function changeUnit(value){
+            let f = (9/5)*value +32;
+            console.log(`value in f is ${f}`);
+        }
+        let value  = 2;
+        changeUnit(value);
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <input type="text" id="z" >
+    <button id="e" onclick=" 
+    document.querySelector('#e1').innerText = `your age is ${age}`;">check</button>
+    <h1 id="e1">you age is </h1>
+    <script>
+        var age;
+            let z = document.querySelector('#z') ;
+        if(z>10){
+            age = `large`; 
+        }
+        else if (z>10){
+            age = `small`;
+        } 
+        document.querySelector('#e1').innerText = `your age is ${age}`;
+    </script>
+
+</body>
+</html>

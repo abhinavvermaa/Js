@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Game</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bat Ball Stump Game</h1>
+    <button onclick="
+    const userchoicemsg = `user have choosen bat`;
+    var randomNumber = Math.random()*3;
+    let computerChoice;
+    if(randomNumber>0 && randomNumber <=1){
+        computerChoice = 'bat';
+        console.log('computer has choosen bat');
+    }
+    else if(randomNumber>1 && randomNumber <=2){
+        computerChoice = 'ball';
+        console.log('computer has choosen ball');
+    }
+    else{
+        computerChoice = 'stump';
+        console.log('computer has choosen stump');
+    }
+    
+    let resultmsg;
+    if(computerChoice=== 'ball'){
+        resultmsg = 'user won';
+    }
+    else if(computerChoice=== 'bat'){
+        resultmsg = 'tie';
+    }
+    else{
+         resultmsg = 'computer won';
+    }
+    alert(` you have choosen bat. computer choice is ${computerChoice}  and result is : ${resultmsg}`);
+    ">bat</button>
+    <button onclick="
+    const userchoicemsg = `user have choosen ball`;
+    var randomNumber = Math.random()*3;
+    let computerChoice;
+    if(randomNumber>0 && randomNumber <=1){
+        computerChoice = 'bat';
+        console.log('computer has choosen bat');
+    }
+    else if(randomNumber>1 && randomNumber <=2){
+        computerChoice = 'ball';
+        console.log('computer has choosen ball');
+    }
+    else{
+        computerChoice = 'stump';
+        console.log('computer has choosen stump');
+    }
+    
+    let resultmsg;
+    if(computerChoice=== 'bat'){
+        resultmsg = 'computer won';
+    }
+    else if(computerChoice=== 'ball'){
+        resultmsg = 'tie';
+    }
+    else{
+         resultmsg = 'user won';
+    }
+    alert(` you have choosen ball. computer choice is ${computerChoice}  and result is : ${resultmsg}`);
+    ">ball</button>
+    <button onclick="
+    const userchoicemsg = `user have choosen stump`;
+    var randomNumber = Math.random()*3;
+    let computerChoice;
+    if(randomNumber>0 && randomNumber <=1){
+        computerChoice = 'bat';
+        console.log('computer has choosen bat');
+    }
+    else if(randomNumber>1 && randomNumber <=2){
+        computerChoice = 'ball';
+        console.log('computer has choosen ball');
+    }
+    else{
+        computerChoice = 'stump';
+        console.log('computer has choosen stump');
+    }
+    
+    let resultmsg;
+    if(computerChoice=== 'bat'){
+        resultmsg = 'user won';
+    }
+    else if(computerChoice=== 'stump'){
+        resultmsg = 'tie';
+    }
+    else{
+         resultmsg = 'computer won';
+    }
+    alert(` you have choosen stump. computer choice is ${computerChoice}  and result is : ${resultmsg}`);
+    ">stump</button>
+
+    <script>
+
+    </script>
+</body>
+</html>

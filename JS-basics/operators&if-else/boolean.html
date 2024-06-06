@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boolean</title>
+</head>
+<body>
+    <h1 id = "h1">you can drive</h1>
+    <button id = "b1" onclick="document.querySelector('#h1').innerText = `you can ${m} drive`;"> check</button>
+    <script>
+        let m = "";
+        let age = 19;
+        console.log('checking if you can drive');
+        document.querySelector('#h1').innerText = `you can ${m} drive`;
+        if(age>18){
+            m='yes';
+        }
+        else{
+            m="not";
+        }
+    </script>
+
+</body>
+</html>
