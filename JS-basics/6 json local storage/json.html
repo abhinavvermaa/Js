@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let product = {
+        //     name : 'tshirt',
+        //     price: 789,
+        //     rating: {
+        //         stars : 4.5,
+        //         noOfRevies : 453,
+        //     },
+        // };
+
+        // console.log(typeof product);
+        // console.log(product);
+        // let str = JSON.stringify(product)
+        // console.log(typeof str);
+        // console.log(str);
+
+        // let newProduct = JSON.parse(str);
+        // console.log(newProduct)
+
+
+        let product = {
+            name: 'tshirt',
+            price: 789,
+            rating: {
+                stars: 4.5,
+                noOfRevies: 453,
+            },
+        };
+
+        // localStorage.setItem('name', 'Abhinav');
+        // localStorage.setItem('price', '2323');
+
+        // console.log(localStorage.getItem('name'));
+
+        // localStorage.setItem('product',JSON.stringify(product));
+        let product2= JSON.parse(localStorage.getItem('product'));
+        console.log(product2);
+    </script>
+</body>
+
+</html>
