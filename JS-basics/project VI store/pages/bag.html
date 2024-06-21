@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <title>Myntra Clone</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/bag.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
         <div class="logo_container">
-            <a href="#"><img class="myntra_home" src="images/VI store_transparent.png" alt="Myntra Home"></a>
+            <a href="#"><img class="myntra_home" src="../images/myntra_logo.webp" alt="Myntra Home"></a>
         </div>
         <nav class="nav_bar">
             <a href="#">Men</a>
@@ -36,47 +37,23 @@
             <div class="action_container">
                 <span class="material-symbols-outlined action_icon">shopping_bag</span>
                 <span class="action_name">Bag</span>
+                <span class="bag-item-count">0</span>
             </div>
         </div>
     </header>
     <main>
-        <div class="banner_container">
-            <img class="banner_image" src="images/banner.jpg" alt="Main Banner">
+      <div class="bag-page">
+        <div class="bag-items-container">
         </div>
-        <div class="category_heading">MEDAL WORTHY BRANDS TO BAG BY VI STORE</div>
-        <div class="category_items">
-            <a href="#"><img class="sale_item" src="images/offers/1.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/2.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/3.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/4.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/5.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/6.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/7.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/8.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/9.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/10.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/11.png"></a>
-            <a href="#"><img class="sale_item" src="images/offers/12.png"></a>
+        <div class="bag-summary">
         </div>
 
-        <div class="category_heading">SHOP BY CATEGORY</div>
-        <div class="category_items">
-            <a href="#"><img class="sale_item" src="images/categories/1.jpg"></a>
-            <a href="#"><img class="sale_item" src="images/categories/2.jpg"></a>
-            <a href="#"><img class="sale_item" src="images/categories/3.jpg"></a>
-            <a href="#"><img class="sale_item" src="images/categories/4.jpg"></a>
-            <a href="#"><img class="sale_item" src="images/categories/5.jpg"></a>
-            <a href="#"><img class="sale_item" src="images/categories/6.jpg"></a>
-            <a href="#"><img class="sale_item" src="images/categories/7.jpg"></a>
-            <a href="#"><img class="sale_item" src="images/categories/8.jpg"></a>
-            <a href="#"><img class="sale_item" src="images/categories/9.jpg"></a>
-            <a href="#"><img class="sale_item" src="images/categories/10.jpg"></a>
-        </div>
+      </div>
     </main>
     <footer>
         <div class="footer_container">
             <div class="footer_column">
-                <h3>VI</h3>
+                <h3>ONLINE SHOPPING</h3>
 
                 <a href="#">Men</a>
                 <a href="#">Women</a>
@@ -88,7 +65,7 @@
             </div>
 
             <div class="footer_column">
-                <h3>STORE</h3>
+                <h3>ONLINE SHOPPING</h3>
 
                 <a href="#">Men</a>
                 <a href="#">Women</a>
@@ -100,7 +77,7 @@
             </div>
 
             <div class="footer_column">
-                <h3>SHOP NOW</h3>
+                <h3>ONLINE SHOPPING</h3>
 
                 <a href="#">Men</a>
                 <a href="#">Women</a>
@@ -114,8 +91,11 @@
         <hr>
 
         <div class="copyright">
-            © 2024 www.VI_store.com. All rights reserved.
+            © 2023 www.myntra.com. All rights reserved.
         </div>
     </footer>
+    <script src="../data/items.js"></script>
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/bag.js"></script>
 </body>
 </html>
