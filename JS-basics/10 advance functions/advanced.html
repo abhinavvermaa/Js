@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advanced function</title>
+</head>
+<body>
+    <!-- <button id="my-button" "> click me</button> -->
+    <!-- <input id="c1" type="text">
+    
+    <button class="b2" onclick=" check()">check</button>
+    <h3 id="b1"></h3> -->
+    <script>
+        let arr = [1,2,3,4,5,6,7,8];
+        // let odds = arr.filter((num,  index)=>{
+        //     if(num%2 === 1){
+        //         return true;
+        //     }
+        //     else{
+        //         return false;
+        //     }
+        // });
+         
+        let newodds = arr.filter((num,  index)=> num % 2 === 1);
+         
+        console.log(newodds);
+
+            let arr1=[1,2,3,4,5,6];
+            let squares = arr1.map((num)=> num*num);
+            console.log(squares);
+        // let arr = [3,4,5,6];
+        // for(let i=0;i<arr.length;i++){
+        //     console.log(arr[i]);
+        // }
+
+        // arr.forEach(num =>console.log(num) );
+
+    //     let number = document.querySelector('#c1');
+    //     let num = number.value;
+    //     function check(){
+    //     if(num % 2 === 0){
+    //         document.querySelector('#b1').innerText = 'even';
+    //     }
+    //     else if(num%2!=0) {
+    //         document.querySelector('#b1').innerText = 'odd';
+
+    //     }
+    // }
+        // let buttonelement = document.querySelector('#my-button');
+        // let txt = document.querySelector('#b1');
+
+        // let behavour = event => console.log('I am clicked');
+        // buttonelement.addEventListener('click',behavour);
+        // txt.innerText = 'game';
+        
+        // let printDate = event => console.log(new Date());
+        // buttonelement.addEventListener('click',printDate);
+
+        // buttonelement.removeEventListener('click', behavour);
+
+
+        // let sum = function(num1,num2){
+        //     return num1+num2;
+        // };
+        // console.log(sum(2,3));
+        // let newsum = sum;
+        // console.log(newsum(789,3));
+    </script>
+</body>
+</html>

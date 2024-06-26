@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ps10</title>
+    <style>
+        .b1{
+            height: 20px;
+            width: 80px;
+            background-color: peru;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+        .js-size-double{
+            font-size: 30px;
+            height: 40px;
+            width: 160px;
+        }
+    </style>
+</head>
+<body>
+    <button class="b1" ">double</button>
+    <script>
+            let buttonelement = document.querySelector('.b1');
+        buttonelement.addEventListener('click',event => setTimeout(doublethesize,2000));
+
+        function doublethesize(){
+            let buttonelement = document.querySelector('.b1');
+            buttonelement.classList.add('js-size-double');
+        }
+        
+        // let multipply = (n1,n2) => n1*n2;
+        // // console.log(multipply(3,5));
+        // let ren = () => console.log('namste');
+        // let runtwice = multi => {
+        //     multi();
+        //     multi();
+        // }
+        // runtwice(ren);
+
+        // let arr=[1,2,3,4,5];
+        // arr.forEach(element => console.log(element+=element ));
+        </script>
+</body>
+</html>
