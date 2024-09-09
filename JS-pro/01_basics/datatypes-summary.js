@@ -32,3 +32,27 @@ const myfunction = function(){
   console.log("hello world")
 }
 console.log(typeof myfunction)
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive) , Heap(non-primitive)
+
+let myYTname = "tradewizard";
+
+let anotherName = myYTname;
+
+anotherName = "tradingbull"
+console.log(anotherName)
+console.log(myYTname)
+
+let user1 = {
+  email: "user@google.com",
+  upi: "user@ybl"
+}
+
+let user2 = user1;
+
+user2.email = "avi@google.com"
+
+console.log(user1.email)
+console.log(user2.email);
