@@ -17,14 +17,24 @@ const user = {
 
 // function chai(){
 //   let username = "abhinav"
-//   console.log(this.username);
+//   console.log(this)
 // }
 // chai()
 
 
-const chai = () => {
-  let username = "abhinav"
-  console.log(this.username);
-}
+// const chai = () => {
+//   let username = "abhinav"
+//   console.log(this);
+// }
 
-chai()
+// chai()
+
+// const addtwo = (num1,num2) =>   num1+num2; // implicit return when we don't use return keyword to return , exlicit return means when we use it 
+const addtwo = (num1,num2) =>   ({username: "avish"});
+
+console.log(addtwo(5,6))
+
+
+const myarray = [2,4,5,32,1]
+
+console.log(myarray.forEach(()=>(1+2)))
