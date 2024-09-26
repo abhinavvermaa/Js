@@ -1,1 +1,4 @@
-(Math.random()*(max-min+1))+min
+);
+// console.log(myDate.toDateString()); // only date
+// console.log(myDate.toLocaleString());
+// console.log(typeof myDate)

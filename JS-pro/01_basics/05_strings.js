@@ -22,7 +22,7 @@ console.log(anotherString);
 
 const newStringone = "  histesh   "
 console.log(newStringone)
-console.log(newStringone.trim());
+console.log(newStringone.trim());//removes spaces
 
 
 const url = "https://abhinav.com/abhinav%20verma"

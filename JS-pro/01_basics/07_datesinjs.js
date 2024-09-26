@@ -1,15 +1,15 @@
 //Dates
 
 let myDate = new Date()
-console.log(myDate.toString());
-console.log(myDate.toDateString()); // only date
-console.log(myDate.toLocaleString());
-console.log(typeof myDate)
+// console.log(myDate.toString());
+// console.log(myDate.toDateString()); // only date
+// console.log(myDate.toLocaleString());
+// console.log(typeof myDate)
 
 // let myCreateDate = new Date(2001,0,1,5,4)
-// let myCreateDate = new Date(2001,0,1,5,3)
-let myCreateDate = new Date("01-14-2023")
-// console.log(myCreateDate.toLocaleString())
+let myCreateDate = new Date(2001,0,1,5,3)//month is begining with 0 only
+// let myCreateDate = new Date("01-14-2023")
+console.log(myCreateDate.toLocaleString())
 
 let myTimeStamp = Date.now()
 
