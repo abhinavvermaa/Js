@@ -1,1 +1,5 @@
-num > 4
+conding.forEach( function (item) 
+{
+  console.log(item)
+} 
+)

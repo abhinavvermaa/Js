@@ -36,7 +36,7 @@ const obj4 = {
 
 // const obj3 = {obj1,obj2}
 // const obj3=Object.assign({},obj1,obj2,obj4)//'{}'is only to conbine without this the output will be same
-const obj3= {...obj1,...obj2}
+// const obj3= {...obj1,...obj2}
 // console.log(obj3)
 
 
@@ -50,7 +50,7 @@ const users = [
   {id : 3,
   email : '2i@snfjs'}
 ]
-// console.log(users[1 ])
+console.log(users[1 ])
 // console.log(users[2].email)
 // console.log(Object.keys(tinderuser));//return keys in array
 // console.log(Object.values(tinderuser));// returns values in array
@@ -82,9 +82,9 @@ console.log(instructor)
 //   "price": "free"
 // }
 
-[
-  {},
-  {},
-  {}
-]
+// [
+//   {},
+//   {},
+//   {}
+// ];
 

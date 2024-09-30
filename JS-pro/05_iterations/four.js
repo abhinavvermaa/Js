@@ -6,7 +6,7 @@ const myObj ={
 }
 
 for (const key in myObj) {
-  // console.log(`${key} shortcut is for ${myObj[key]}`)
+  console.log(`${key} shortcut is for ${myObj[key]}`)
 }
 
 const programming = ['js','ruby','py','java','cpp']
@@ -22,7 +22,7 @@ map.set('IN','INDIA')
 map.set('US','United states of America')
 map.set('IN','INDIA')
 
-for (const key in map) {
+for (const key of map) {
   console.log(key);
   
 }

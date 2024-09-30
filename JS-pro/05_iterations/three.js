@@ -9,11 +9,11 @@
 //   console.log(num);
 // }
 
-// const greetings = "hello world"
+const greetings = "hello world"
 
-// for (const greet of greetings) {
-//   console.log(`${greet}`)
-// }
+for (const greet of greetings) {
+  console.log(`${greet}`)
+}
 
 
 // Maps 
@@ -38,5 +38,5 @@ const myobj = {
 // for (const [key,value] of myobj) {
 //   console.log(key,value)
   
-// }//objects are not iteratable
+// }//objects are not iteratable for in loop will be used 
 

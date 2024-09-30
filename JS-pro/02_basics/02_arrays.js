@@ -19,8 +19,8 @@ const real_another_array = another_array.flat(Infinity)
 
 console.log(real_another_array)
 
-// console.log(Array.isArray("ABHINAV"))
-// console.log(Array.from("ABHINAV"))
+console.log(Array.isArray(cobine))
+console.log(Array.from("ABHINAV"))
 // console.log(Array.from({name:"hitesh"})) // interesting it only gives an empty array
 
 let score1 = 100

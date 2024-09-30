@@ -23,7 +23,7 @@ const jsUser = {
 
 
 jsUser.email = "abhinav@avi.com"
-// Object.freeze(jsUser) // no more futher changes will abe alllowed
+// Object.freeze(jsUser) // no more futher changes will be allowed
 jsUser.email = "abhinav@abhinav.com"
 
 console.log(jsUser.email)

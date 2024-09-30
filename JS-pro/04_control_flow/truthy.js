@@ -6,7 +6,6 @@ if (userEmail) {
 }
 else{
   console.log("not got");
-  
 }
 
 // falsy vlaues
@@ -18,7 +17,7 @@ else{
 // "0" , 'false' , " " , [] , {} , function(){}
 
 
-if (userEmail.length === 0) {
+if (userEmail.length === ' ') {
   console.log("array is empty")
 }
 
@@ -37,7 +36,7 @@ let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
 // val1 = undefined ?? 10
-val1 = null ?? 10 ??20
+// val1 = null ?? 10 ??20
 
 console.log(val1);
 
