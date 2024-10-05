@@ -31,13 +31,17 @@
   //false - bubling - bottom to top : li > ul
 
   
+
+  
   //type,timestamp,defaultPrevented
   //target , toElement , srcElement , currentTarget , 
+  
   //clientX, clientY ,screenY
   //altkey, ctrlkey,shiftkey , keycode
 
   document.querySelector('#images').addEventListener('click',function(e){console.log(e.target.parentNode);
-  console.log(e.target.tagName)
+  
+    console.log(e.target.tagName)
   if(e.target.tagName==='IMG'){
     console.log(e.target.id)
     let removeIt = e.target.parentNode
