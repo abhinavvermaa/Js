@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>react</title>
+</head>
+<body> 
+  <button >button clicked</button>
+
+</body>
+<script>
+  class React{
+    constructor(){
+      this.library = "react"
+      this.server = "localhost:300"
+
+      //requirement
+      document.querySelector('button').addEventListener('click', this.handleclick.bind(this))//bind(this) => it is used for sending the variables and members reference to the function which can be further  accessible
+    }
+    handleclick(){
+      console.log("button clicked");
+      console.log(this.server)
+    }
+  }
+  const re = new React();
+</script>
+</html>
