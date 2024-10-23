@@ -12,7 +12,7 @@ for (const key in myObj) {
 const programming = ['js','ruby','py','java','cpp']
 
 for (const key in programming) {
-  // console.log(programming[key]);
+  console.log(programming[key]);
 }
 
 //IMP: for objects and arrays for key we can give directly the variable name 'var' as defined but for the value we must give it like this -> var{key}
@@ -22,7 +22,7 @@ map.set('IN','INDIA')
 map.set('US','United states of America')
 map.set('IN','INDIA')
 
-for (const key of map) {
-  console.log(key);
+for (const [key,value] of map) {
+  console.log(key,value);
   
 }

@@ -17,9 +17,9 @@ conding.forEach((it) => {
 
 // conding.forEach(printme)
 
-// conding.forEach((item,index,arr)=>{
-//   console.log(item,index,arr);
-// } )
+conding.forEach((item,index,arr)=>{
+  console.log(item,index,arr);
+} )
 
 const mycoding = [{
   languageName: 'javascipt',

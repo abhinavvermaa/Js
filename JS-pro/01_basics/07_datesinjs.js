@@ -1,10 +1,10 @@
 //Dates
 
 let myDate = new Date()
-// console.log(myDate.toString());
-// console.log(myDate.toDateString()); // only date
-// console.log(myDate.toLocaleString());
-// console.log(typeof myDate)
+console.log(myDate.toString());
+console.log(myDate.toDateString()); // only date
+console.log(myDate.toLocaleString());//date and time side by side
+console.log(typeof myDate)
 
 // let myCreateDate = new Date(2001,0,1,5,4)
 let myCreateDate = new Date(2001,0,1,5,3)//month is begining with 0 only
@@ -13,9 +13,9 @@ console.log(myCreateDate.toLocaleString())
 
 let myTimeStamp = Date.now()
 
-// console.log(myTimeStamp)
+console.log(myTimeStamp)
 // console.log(myCreateDate.getTime())
-console.log(Math.floor(Date.now()/1000))
+// console.log(Math.floor(Date.now()/1000))
 
 let newDate = new Date()
 console.log(newDate.getDay ())

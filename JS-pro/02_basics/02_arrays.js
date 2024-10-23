@@ -1,17 +1,19 @@
 const marvel_heros = ["thor","ironman","spiderman"]
 const dc = ["superman","flash","batman"]
 
-// marvel_heros.push(dc) //insert complete array inside array 
+marvel_heros.push(dc) //insert complete array inside array 
 
-// console.log(marvel_heros)
+console.log(marvel_heros)
 // console.log(marvel_heros[3][1])
 
 const cobine = marvel_heros.concat(dc)//inserts the elements into the array !!!!!!! concat itself donot concate the array
 // console.log(marvel_heros)
 console.log(cobine)
+console.log(cobine[3])
 
 const all_new_heros =[...marvel_heros, ...dc]//spread [...], spreads the element inside the array
 console.log(all_new_heros)
+console.log(all_new_heros[5])
 
 const another_array = [ 1,2,3,[4,5,6],7,[6,7,[4,5]]]
 

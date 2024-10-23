@@ -1,6 +1,6 @@
-// const tinderUser = new Object()
+const tinderuser = new Object()
 
-const tinderuser ={}
+// const tinderuser ={}
 
 tinderuser.id ="123abc"
 tinderuser.name = "sammy"
@@ -35,7 +35,7 @@ const obj4 = {
 
 
 // const obj3 = {obj1,obj2}
-// const obj3=Object.assign({},obj1,obj2,obj4)//'{}'is only to conbine without this the output will be same
+// const obj3=Object.assign({},obj1,obj2,obj4)//'{}'is only to combine without this the output will be same
 // const obj3= {...obj1,...obj2}
 // console.log(obj3)
 
@@ -45,19 +45,21 @@ const users = [
     id : 1,
     email : 'hi@snfjs',
   },
-  {id : 2,
+  {
+    id : 2,
   email : '2i@snfjs'},
-  {id : 3,
+  {
+    id : 3,
   email : '2i@snfjs'}
 ]
 console.log(users[1 ])
-// console.log(users[2].email)
-// console.log(Object.keys(tinderuser));//return keys in array
+console.log(users[2].email)
+console.log(Object.keys(tinderuser));//return keys in array
 // console.log(Object.values(tinderuser));// returns values in array
-// console.log(Object.entries(tinderuser));// returns key and values in array
+console.log(Object.entries(tinderuser));// returns key and values in array
 
 
-// console.log(tinderuser.hasOwnProperty('isloggedin'))
+console.log(tinderuser.hasOwnProperty('isloggedin'))
 
 
 

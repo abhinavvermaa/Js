@@ -24,6 +24,6 @@ switch (month) {
     break;
   
   default:
-    console.log("default case mathced")
+    console.log("default case mathod")
     break;
 }

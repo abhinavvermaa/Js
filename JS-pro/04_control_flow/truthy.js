@@ -1,6 +1,6 @@
 const userEmail = []
 
-
+// 
 if (userEmail) {
   console.log("got email")
 }
@@ -36,7 +36,7 @@ let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
 // val1 = undefined ?? 10
-// val1 = null ?? 10 ??20
+val1 = null ?? 10 ??20
 
 console.log(val1);
 
