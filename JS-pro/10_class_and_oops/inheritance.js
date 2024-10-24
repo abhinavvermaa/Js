@@ -7,9 +7,9 @@ class User{
   }
 }
  
-// const obj = new  User('abhinav'
-// )
-// console.log(obj.logMe());
+const obj = new  User('abhinav'
+)
+console.log(obj.logMe());
 
 class Teacher extends User{
   constructor(username,email,password){
@@ -23,8 +23,8 @@ class Teacher extends User{
   }
 }
 
-const obj = new Teacher("abhinav","123","112233")
-// obj.addCourse()
+// const obj = new Teacher("abhinav","123","112233")
+// // obj.addCourse()
 
 const masalachai = new User('masala')
 masalachai.logMe()

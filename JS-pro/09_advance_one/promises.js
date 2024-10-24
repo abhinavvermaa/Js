@@ -80,25 +80,25 @@ async function consumepromiseFive(){
 consumepromiseFive()
 
 
-// async function getAllUsers(){
-//   try{
-//     const response = await fetch('https://api.github.com/users/abhinavvermaa')
-//   const data = await response.json()
-//   console.log(data)
+async function getAllUsers(){
+  try{
+    const response = await fetch('https://api.github.com/users/abhinavvermaa')
+  const data = await response.json()
+  console.log(data)
   
-//   }
-//   catch(error){
-//     console.log("E: ",error);
-//   }
-// }
+  }
+  catch(error){
+    console.log("E: ",error);
+  }
+}
 
 // getAllUsers()
 
-fetch('https://api.github.com/users/abhinavvermaa')
-.then((response)=>{
-  return response.json()
-})
-.then((data)=>{
-  console.log(data);
-})
-.catch((error)=>console.log(error))
+// fetch('https://api.github.com/users/abhinavvermaa')
+// .then((response)=>{
+//   return response.json()
+// })
+// .then((data)=>{
+//   console.log(data);
+// })
+// .catch((error)=>console.log(error))
