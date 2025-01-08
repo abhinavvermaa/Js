@@ -23,11 +23,11 @@
  // document.getElementById('owl').onclick = function(){
  //   alert("owl clicked")
  // } 
- // document.getElementById('images').addEventListener('click',function(e){console.log("clicked inside the ul")},false)
- // document.getElementById('owl').addEventListener('click',function(e){console.log("owl clicked");e.stopPropagation();},false)
+  <!-- document.getElementById('images').addEventListener('click',function(e){console.log("clicked inside the ul")},false) -->
+  <!-- document.getElementById('owl').addEventListener('click',function(e){console.log("owl clicked");e.stopPropagation();},false) -->
   //stop propogation is used jab humko ek event ke upr dusra event ni chalana hota h toh
 
- // document.getElementById('google').addEventListener('click',function(e){console.log('google clicked ');e.preventDefault(); e.stopPropagation()},false)
+  document.getElementById('google').addEventListener('click',function(e){console.log('google clicked ');e.preventDefault(); e.stopPropagation()},false)
   //true - capturing - top to bottom : ul > li
   //false - bubling - bottom to top : li > ul
 
@@ -40,13 +40,12 @@
   //clientX, clientY ,screenY
   //altkey, ctrlkey,shiftkey , keycode
 
-  document.querySelector('#images').addEventListener('click',function(e){console.log(e.target.parentNode);
+  document.querySelector('#images').addEventListener('click',function(e){console.log(e.target);
   
     console.log(e.target.tagName)
   if(e.target.tagName==='IMG'){
     console.log(e.target.id)
-    let removeIt = e.target.parentNode
-  removeIt.remove()
+     e.target.parentNode.remove()
   }
   //removeIt.parentNode.removeChild(removeIt)
 },false)

@@ -3,17 +3,18 @@
 // [" ","",""]
 // [{},{},{}]
 
-const arr =[1,2,3,4,5]
+// let arr = new Array();
+// arr = [1,2,3,4,5]
 
-for (const num of arr) {
-  console.log(num);
-}
+// for (const num of arr) {
+//   console.log(num);
+// }
 
-const greetings = "hello world"
+// const greetings = "hello world"
 
-for (const greet of greetings) {
-  console.log(`${greet}`)
-}
+// for (const greet of greetings) {
+//   console.log(`${greet}`)
+// }
 
 
 // Maps 
@@ -23,11 +24,11 @@ map.set('IN','INDIA')
 map.set('US','United states of America')
 map.set('IN','INDIA')
 
-// console.log(map);
+console.log(map);
 
 
-for (const [mm,vv] of map) {
-  console.log(mm,vv);
+for (const [k,v] of map) {
+  console.log(k,v);
 }
 
 const myobj = {

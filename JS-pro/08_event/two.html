@@ -8,16 +8,15 @@
 <body>
   <h1>chai aur code</h1>
   <button id="stop">stop</button>
+  <button id="start">start</button>
   
 </body>
 <script>
   const sayname = function(){console.log('abhinab')}
   const changetext = function(){document.querySelector("h1").innerHTML = "best js series"};
-    function changeme() { setTimeout(changetext,2000)}
-    
-    document.querySelector('#stop').addEventListener('click', function(){
-      clearTimeout(changeme)
-      console.log("stopped")
-    })
+    function changeme() { setTimeout(changetext,1000)}
+    function stopit(){clearTimeout(changeme)}
+    document.querySelector('#start').addEventListener('click',changeme)
+    document.querySelector('#stop').addEventListener('click', stopit)
   </script>
 </html>

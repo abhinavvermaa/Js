@@ -17,14 +17,14 @@ else{
 // "0" , 'false' , " " , [] , {} , function(){}
 
 
-if (userEmail.length === ' ') {
+if (userEmail.length === 0) {
   console.log("array is empty")
 }
 
 
 const emptyobject = {}
 
-if(Object.keys(emptyobject).length === 0)
+if(Object.keys(emptyobject).length === ' ')
 {
   console.log('object is empty');
   
@@ -36,7 +36,7 @@ let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
 // val1 = undefined ?? 10
-val1 = null ?? 10 ??20
+// val1 = null ?? 10 ??20
 
 console.log(val1);
 

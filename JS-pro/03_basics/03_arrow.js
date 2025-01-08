@@ -8,6 +8,7 @@ const user = {
 
   }
 } 
+// console.log(user.welcomemessage())
 
 // user.welcomemessage()
 // user.username = "sam"
@@ -22,19 +23,20 @@ const user = {
 // chai()
 
 
-// const chai = () => {
-//   let username = "abhinav"
-//   console.log(this);
-// }
+const chai = () => {
+  let username = "abhinav"
+  console.log(this);
+}
 
 // chai()
-
+//if we use this in normal function it will provide node environment global values and if we use it in a arrow function then it will provide you a empty parenthesis value .
+// this in function inside object will return the value of the whole object
 // const addtwo = (num1,num2) =>   num1+num2; // implicit return when we don't use return keyword to return , exlicit return means when we use it 
-const addtwo = (num1,num2) =>   ({username: "avish"});
+// const addtwo = (num1,num2) =>   ({username: "avish"});
 
-console.log(addtwo(5,6))
+// console.log(addtwo(5,6))
 
 
-const myarray = [2,4,5,32,1]
+// const myarray = [2,4,5,32,1]
 
-console.log(myarray.forEach(()=>(1+2)))
+// console.log(myarray.forEach(()=>(1+2)))

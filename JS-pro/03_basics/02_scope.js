@@ -3,11 +3,11 @@ let a = 300
 if(true){
   let a =10
   const b =20
-  // console.log(a)
+  console.log(a)
 }
 
 
-// console.log(a)
+console.log(a)
 // console.log(b)
 // console.log(c)
 
@@ -19,14 +19,14 @@ function one(){
     console.log(username);
   }
   // console.log(website)
-  // two()
+  two()
 }
-// one()
+one()
 if(true){
   const username = 'abhinav'
   if(username==='abhinav'){
     const website = " youtube";
-    // console.log(username+website)
+    console.log(username+website)
   }
   // console.log(website)
 }

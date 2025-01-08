@@ -12,7 +12,7 @@ console.log(otherNumber.toPrecision(3));//when we want a precise value
 
 const hunderds = 1000000
 
-// console.log(hunderds.toLocaleString('en-IN'));
+console.log(hunderds.toLocaleString('en-IN'));
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++
 

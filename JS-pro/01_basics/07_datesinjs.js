@@ -7,8 +7,8 @@ console.log(myDate.toLocaleString());//date and time side by side
 console.log(typeof myDate)
 
 // let myCreateDate = new Date(2001,0,1,5,4)
-let myCreateDate = new Date(2001,0,1,5,3)//month is begining with 0 only
-// let myCreateDate = new Date("01-14-2023")
+// let myCreateDate = new Date(2001,0,1,5,3)//month is begining with 0 only
+let myCreateDate = new Date("01-14-2023")
 console.log(myCreateDate.toLocaleString())
 
 let myTimeStamp = Date.now()
@@ -22,7 +22,7 @@ console.log(newDate.getDay ())
 console.log(newDate.getFullYear ())
 console.log(newDate.getMonth ()) 
 console.log(newDate.getTime ()) 
-console.log(newDate)
+console.log(newDate.toLocaleDateString())
 
 console.log(newDate.toLocaleString('default',{
   weekday: "long"

@@ -4,7 +4,7 @@ const promiseOne = new Promise(function(resolve,reject){
   setTimeout(function(){
     console.log('Async task is completed');
     resolve();
-  },1000)
+  },5000)
 })
 
 promiseOne.then(function(){
@@ -94,11 +94,11 @@ async function getAllUsers(){
 
 // getAllUsers()
 
-// fetch('https://api.github.com/users/abhinavvermaa')
-// .then((response)=>{
-//   return response.json()
-// })
-// .then((data)=>{
-//   console.log(data);
-// })
-// .catch((error)=>console.log(error))
+fetch('https://api.github.com/users/abhinavvermaa')
+.then((response)=>{
+  return response.json()
+})
+.then((data)=>{
+  console.log(data);
+})
+.catch((error)=>console.log(error))

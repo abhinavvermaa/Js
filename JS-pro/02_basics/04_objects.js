@@ -36,7 +36,7 @@ const obj4 = {
 
 // const obj3 = {obj1,obj2}
 // const obj3=Object.assign({},obj1,obj2,obj4)//'{}'is only to combine without this the output will be same
-// const obj3= {...obj1,...obj2}
+const obj3= {...obj1,...obj2}
 // console.log(obj3)
 
 

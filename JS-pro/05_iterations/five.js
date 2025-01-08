@@ -6,9 +6,9 @@ const conding = ['js','ruby','java','py','cpp']
 // } 
 // )
 
-conding.forEach((it) => {
-  console.log(it);
-})
+// conding.forEach((it) => {
+//   console.log(it);
+// })
 
 // function printme(item){
 //   console.log(item);

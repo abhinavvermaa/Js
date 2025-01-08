@@ -1,9 +1,9 @@
 const name = "abhinav";
 const repocount = 50;
 
-// console.log(name + repocount + "value");
+// console.log(name + repocount + "value");//abhinav50value
 
-console.log(`hello my name is ${name} and my repo count is ${repocount}`);
+console.log(`hello my name is ${name} and my repo count is ${repocount}`);//
 
 const gameName = new String("abhinav-vr-com");//this is an object type
 
